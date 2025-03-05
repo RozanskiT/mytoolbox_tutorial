@@ -13,7 +13,6 @@ mytoolbox/
 │   ├── __init__.py
 │   └── kurucz_atomic_symbols.py
 ├── setup.py
-├── requirements.txt
 └── README.txt
 ```
 
@@ -25,9 +24,6 @@ mytoolbox/
 
 - setup.py:  
   Tells Python how to install your module, including metadata and dependencies.
-
-- requirements.txt:  
-  Lists external Python libraries your module depends on.
 
 - README.txt:  
   Provides instructions and usage examples for your module.
