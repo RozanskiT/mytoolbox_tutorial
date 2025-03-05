@@ -38,13 +38,13 @@ You can or make it by yourself or git clone this repository:
 
 To clone (get on you machine) a repository from any git server, you can use the following command:
 ```bash
-    git clone <repository_url>
+git clone <repository_url>
 ```
 <repository_url> is the URL of the repository you want to clone.
 
 Example:
 ```bash
-    git clone https://github.com/RozanskiT/mytoolbox_tutorial.git
+git clone https://github.com/RozanskiT/mytoolbox_tutorial.git
 ```
 
 Then enter the directory and follow to instalaltion:
@@ -64,6 +64,9 @@ pip install -e .
 After installation, the package can be imported and used as follows:
 ```python
 import mytoolbox as mt
+
+# Check the actual location of the imported module (helpful to understand effect of pip install -e)
+print(mt.__file__)
 
 # Convert Kurucz code to atomic symbol and ion stage
 print(mt.kurucz_code_to_symbol('26.01'))  # Output: Fe II
