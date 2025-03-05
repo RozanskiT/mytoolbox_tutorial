@@ -32,26 +32,6 @@ mytoolbox/
 - README.txt:  
   Provides instructions and usage examples for your module.
 
-## Getting this code
-
-You can or make it by yourself or git clone this repository:
-
-To clone (get on you machine) a repository from any git server, you can use the following command:
-```bash
-git clone <repository_url>
-```
-<repository_url> is the URL of the repository you want to clone.
-
-Example:
-```bash
-git clone https://github.com/RozanskiT/mytoolbox_tutorial.git
-```
-
-Then enter the directory and follow to instalaltion:
-```bash
-cd mytoolbox
-```
-
 ## Installation
 
 Install locally in editable (`-e`) mode. You want to use this mode if you need to make changes to your code and immediately test them without reinstalling the package each time.
