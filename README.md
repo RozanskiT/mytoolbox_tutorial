@@ -25,7 +25,7 @@ mytoolbox/
   Contains Python functions to convert between atomic symbols and Kurucz atomic codes.
 
 - tests/test_kurucz_atomic_symbols.py:  
-  Contains unit tests that checks the correctness of functions implemented in kurucz_atomic_symbols.py.
+  Contains unit tests to verify the correctness of functions implemented in `kurucz_atomic_symbols.py`. Tests are optional but highly recommended, as they help you spot problems early and confidently modify your code without fear of unintentionally breaking existing functionality. While there's no need to put form over function, good tests ensure your module stays reliable and maintainable.
 
 - pyproject.toml:  
   Tells Python how to install your module, including metadata and dependencies.
@@ -40,9 +40,9 @@ Install locally in editable (`-e`) mode. You want to use this mode if you need t
 pip install -e .
 ```
 
-## Running tests
+## Running Tests (Optional)
 
-To run all tests for this project:
+Tests are provided for convenience to ensure the package functions correctly, but they are entirely optional when creating your package. To run all tests for this project:
 
 Ensure you have pytest installed (if not already): 
 ```bash 
