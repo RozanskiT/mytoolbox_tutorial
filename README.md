@@ -13,7 +13,7 @@ mytoolbox/
 │   ├── __init__.py
 │   └── kurucz_atomic_symbols.py
 ├── tests/
-│   ├── test_kurucz_atomic_symbols.py
+│   └── test_kurucz_atomic_symbols.py
 ├── pyproject.toml
 └── README.txt
 ```
