@@ -18,20 +18,20 @@ mytoolbox/
 └── README.txt
 ```
 
-- mytoolbox/__init__.py:  
-  Tells Python that mytoolbox is a package, allowing you to import its modules.
+- `mytoolbox/__init__.py`:  
+  Tells Python that `mytoolbox` is a package, allowing you to import its modules. Additionally, it serves as a convenient place to control how submodules are exposed to users. By importing specific functions into `__init__.py`, you simplify the API so users can directly access key functionalities without needing to know your module's internal structure. Alternatively, you could keep submodules separate, leaving it up to users to import each submodule explicitly. Both approaches have their merits: explicit submodules maintain clear boundaries, while convenience imports offer a simpler user experience.
 
-- mytoolbox/kurucz_atomic_symbols.py:  
+- `mytoolbox/kurucz_atomic_symbols.py`:  
   Contains Python functions to convert between atomic symbols and Kurucz atomic codes.
 
-- tests/test_kurucz_atomic_symbols.py:  
+- `tests/test_kurucz_atomic_symbols.py`:  
   Contains unit tests to verify the correctness of functions implemented in `kurucz_atomic_symbols.py`. Tests are optional but highly recommended, as they help you spot problems early and confidently modify your code without fear of unintentionally breaking existing functionality. While there's no need to put form over function, good tests ensure your module stays reliable and maintainable.
 
-- pyproject.toml:  
+- `pyproject.toml`:  
   Tells Python how to install your module, including metadata and dependencies.
 
-- README.txt:  
-  Provides instructions and usage examples for your module.
+- `README.txt`:  
+  Provides instructions and usage examples for your module. (You're reading this file right now!)
 
 ## Installation
 
