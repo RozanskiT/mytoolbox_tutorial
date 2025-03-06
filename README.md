@@ -103,6 +103,6 @@ You can manually recreate this minimal module structure by following the directo
 
 ```bash
 git clone https://github.com/RozanskiT/mytoolbox_tutorial.git
-cd mytoolbox
+cd mytoolbox_tutorial
 ```
 Then proceed with installation steps above.
