@@ -106,3 +106,26 @@ git clone https://github.com/RozanskiT/mytoolbox_tutorial.git
 cd mytoolbox_tutorial
 ```
 Then proceed with installation steps above.
+
+## Further Reading & Best Practices for Python Packaging
+
+If you don't understand something or need coding help, ask AI—they're very good at it!
+
+Here are some concise recommendations and principles useful for scientists developing Python packages:
+
+- **Think "Test First" (TDD)**: Consider writing tests before writing your code — it ensures reliability from the start.
+- **Respect Boundaries**: Clearly define interfaces; minimize dependencies between modules.
+- **Avoid Globals**: Global variables complicate debugging and maintenance. Keep variables local and explicit.
+- **Simplicity Wins**: Write straightforward code — complexity is harder to test, debug, and maintain.
+- **Minimal Dependencies**: Avoid adding unnecessary dependencies — this pays off when running your code on clusters.
+
+**Essential Documentation:**
+
+- [Python Packaging Guide](https://packaging.python.org): Official resources for Python packaging.
+- [pytest Documentation](https://docs.pytest.org): Powerful yet simple testing framework.
+
+**Continuous Integration (CI):**
+
+- Automate your testing workflow to detect issues early:
+  - [GitHub Actions](https://docs.github.com/actions)
+  - [Travis CI](https://travis-ci.com)"}
