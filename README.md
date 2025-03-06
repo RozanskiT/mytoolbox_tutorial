@@ -79,6 +79,10 @@ print(mt.kurucz_code_to_symbol('26.01'))  # Output: Fe II
 
 # Convert atomic symbol and ion stage to Kurucz code
 print(mt.symbol_to_kurucz_code('Fe II'))  # Output: 26.01
+
+# Explicitly print a variable from a submodule 
+# (see description in __init__.py for further details)
+print(mt.kurucz_atomic_symbols.ION_STAGES)
 ```
 
 ### Interactive development with IPython
