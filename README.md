@@ -24,7 +24,7 @@ mytoolbox/
 - mytoolbox/kurucz_atomic_symbols.py:  
   Contains Python functions to convert between atomic symbols and Kurucz atomic codes.
 
-- tests/test_kurucz_atomic_symbols.py:
+- tests/test_kurucz_atomic_symbols.py:  
   Contains unit tests that checks the correctness of functions implemented in kurucz_atomic_symbols.py.
 
 - pyproject.toml:  
