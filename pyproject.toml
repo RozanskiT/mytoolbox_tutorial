@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "mytoolbox"
 version = "0.1.0"
-description = "A short description of your toolbox."
+description = "A simple Python package demonstrating best practices, including tests and clear project structure."
 # Optional, but recommended to set the authors field
 authors = [
     { name="Tomasz Rozanski"}
