@@ -128,4 +128,4 @@ Here are some concise recommendations and principles useful for scientists devel
 
 - Automate your testing workflow to detect issues early:
   - [GitHub Actions](https://docs.github.com/actions)
-  - [Travis CI](https://travis-ci.com)"}
+  - [Travis CI](https://travis-ci.com)
