@@ -44,6 +44,9 @@ import mytoolbox as mt
 # Check the actual location of the imported module (helpful to understand effect of pip install -e)
 print(mt.__file__)
 
+# Print the docstring for the kurucz_code_to_symbol function
+# help(mt.kurucz_code_to_symbol)
+
 # Convert Kurucz code to atomic symbol and ion stage
 print(mt.kurucz_code_to_symbol('26.01'))  # Output: Fe II
 
