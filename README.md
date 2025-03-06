@@ -12,7 +12,9 @@ mytoolbox/
 ├── mytoolbox/
 │   ├── __init__.py
 │   └── kurucz_atomic_symbols.py
-├── setup.py
+├── tests/
+│   ├── test_kurucz_atomic_symbols.py
+├── pyproject.toml
 └── README.txt
 ```
 
@@ -22,7 +24,10 @@ mytoolbox/
 - mytoolbox/kurucz_atomic_symbols.py:  
   Contains Python functions to convert between atomic symbols and Kurucz atomic codes.
 
-- setup.py:  
+- tests/test_kurucz_atomic_symbols.py:
+  Contains unit tests that checks the correctness of functions implemented in kurucz_atomic_symbols.py.
+
+- pyproject.toml:  
   Tells Python how to install your module, including metadata and dependencies.
 
 - README.txt:  
@@ -34,6 +39,28 @@ Install locally in editable (`-e`) mode. You want to use this mode if you need t
 ```bash
 pip install -e .
 ```
+
+## Running tests
+
+To run all tests for this project:
+
+Ensure you have pytest installed (if not already): 
+```bash 
+pip install pytest 
+```
+
+Navigate to the project’s root directory (the same directory containing pyproject.toml).
+Run pytest: 
+```bash 
+pytest
+``` 
+
+For more detailed output, you can use: 
+```bash
+pytest -v
+```
+
+Pytest will automatically discover and execute any test files (like test_kurucz_atomic_symbols.py) located in the tests/ directory. If all is configured correctly, you should see a report indicating whether the tests passed or failed.
 
 ## Usage
 

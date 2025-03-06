@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mytoolbox"
+version = "0.1.0"
+description = "A short description of your toolbox."
+# Optional, but recommended to set the authors field
+authors = [
+    { name="Tomasz Rozanski"}
+]
+dependencies = [
+    "numpy>=1.20"
+]
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+include = ["mytoolbox*"]
